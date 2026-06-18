@@ -1,0 +1,10 @@
+venv311/
+128/
+.vscode/
+cache/
+CLEVR_images/
+trained_models/
+voxels/
+*.err
+*.slurm
+iragarpenak/

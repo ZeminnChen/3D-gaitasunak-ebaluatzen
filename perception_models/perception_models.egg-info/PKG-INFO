@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: perception-models
+Version: 1.0.0
+Summary: Models of the Perception family.
+Home-page: https://github.com/facebookresearch/perception_models
+Author: Meta AI Research, FAIR
+License: FAIR Noncommercial Research License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Requires-Python: >=3.11
+License-File: LICENSE.PE
+License-File: LICENSE.PLM

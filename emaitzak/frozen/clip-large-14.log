@@ -1,0 +1,62 @@
+Loaded CLIP large with embed_dim=1024, patch_size=14, extracted layers=[5, 12, 18, 24]
+Starting training for CLIP, epochs: 10, batch size: 16, learning rate: 0.001
+Test loss: 0.0260,   Test mIoU: 0.8636
+
+Epoch 1
+-------------------------------
+Train loss: 0.0840, mIoU: 0.6231
+Dev loss: 0.0539,  mIoU: 0.7437
+New best model saved at epoch 1 with dev mIoU: 0.7437
+
+Epoch 2
+-------------------------------
+Train loss: 0.0469, mIoU: 0.7700
+Dev loss: 0.0411,  mIoU: 0.7973
+New best model saved at epoch 2 with dev mIoU: 0.7973
+
+Epoch 3
+-------------------------------
+Train loss: 0.0367, mIoU: 0.8164
+Dev loss: 0.0351,  mIoU: 0.8248
+New best model saved at epoch 3 with dev mIoU: 0.8248
+
+Epoch 4
+-------------------------------
+Train loss: 0.0321, mIoU: 0.8373
+Dev loss: 0.0314,  mIoU: 0.8409
+New best model saved at epoch 4 with dev mIoU: 0.8409
+
+Epoch 5
+-------------------------------
+Train loss: 0.0295, mIoU: 0.8489
+Dev loss: 0.0302,  mIoU: 0.8465
+New best model saved at epoch 5 with dev mIoU: 0.8465
+
+Epoch 6
+-------------------------------
+Train loss: 0.0278, mIoU: 0.8563
+Dev loss: 0.0280,  mIoU: 0.8559
+New best model saved at epoch 6 with dev mIoU: 0.8559
+
+Epoch 7
+-------------------------------
+Train loss: 0.0265, mIoU: 0.8620
+Dev loss: 0.0288,  mIoU: 0.8521
+
+Epoch 8
+-------------------------------
+Train loss: 0.0254, mIoU: 0.8669
+Dev loss: 0.0292,  mIoU: 0.8503
+
+Epoch 9
+-------------------------------
+Train loss: 0.0246, mIoU: 0.8709
+Dev loss: 0.0266,  mIoU: 0.8625
+New best model saved at epoch 9 with dev mIoU: 0.8625
+
+Epoch 10
+-------------------------------
+Train loss: 0.0239, mIoU: 0.8740
+Dev loss: 0.0266,  mIoU: 0.8620
+
+
