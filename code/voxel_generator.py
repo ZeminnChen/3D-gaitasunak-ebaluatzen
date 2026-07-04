@@ -1,3 +1,5 @@
+import plotly.graph_objects as go
+
 def generate_3d_voxel(scene, grid_size):
 
     # 1. Munduaren koordenatuen limiteak
@@ -37,3 +39,41 @@ def generate_3d_voxel(scene, grid_size):
         voxels[mask] = 1
 
     return voxels
+
+
+def visualize_grid(voxel_grid):
+
+    limits_x = (-4, 4)
+    limits_y = (-4, 4)
+    limits_z = (0.0, 1.4)
+
+    grid_size = voxel_grid.shape[0]
+
+    step_x = (limits_x[1] - limits_x[0]) / grid_size
+    step_y = (limits_y[1] - limits_y[0]) / grid_size
+    step_z = (limits_z[1] - limits_z[0]) / grid_size
+
+    x_idx, y_idx, z_idx = np.where(voxel_grid > 0)
+
+    x_real = limits_x[0] + (x_idx + 0.5) * step_x
+    y_real = limits_y[0] + (y_idx + 0.5) * step_y
+    z_real = limits_z[0] + (z_idx + 0.5) * step_z
+
+    fig = go.Figure(data=[go.Scatter3d(
+        x=x_real, y=y_real, z=z_real,
+        mode='markers', marker=dict(size=5, symbol='square', color='blue', opacity=1.0)
+    )])
+
+
+    fig.update_layout(
+        scene=dict(
+            xaxis=dict(title='X', range=limits_x),
+            yaxis=dict(title='Y', range=limits_y),
+            zaxis=dict(title='Z', range=limits_z),
+            aspectmode='manual',
+            aspectratio=dict(x=1, y=1, z=0.2)
+        ),
+        margin=dict(r=0, l=0, b=0, t=0)
+    )
+
+    fig.show()
