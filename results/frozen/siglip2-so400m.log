@@ -1,0 +1,65 @@
+Loaded SIGLIP2 base with embed_dim=1152, patch_size=14, extracted layers=[3, 6, 9, 12]
+Starting training for SIGLIP2, epochs: 10, batch size: 16, learning rate: 0.001
+
+Test loss: 0.0251,   Test mIoU: 0.8679
+
+Epoch 1
+-------------------------------
+Train loss: 0.0767, mIoU: 0.6519
+Dev loss: 0.0489,  mIoU: 0.7639
+New best model saved at epoch 1 with dev mIoU: 0.7639
+
+Epoch 2
+-------------------------------
+Train loss: 0.0436, mIoU: 0.7853
+Dev loss: 0.0411,  mIoU: 0.7985
+New best model saved at epoch 2 with dev mIoU: 0.7985
+
+Epoch 3
+-------------------------------
+Train loss: 0.0359, mIoU: 0.8198
+Dev loss: 0.0342,  mIoU: 0.8280
+New best model saved at epoch 3 with dev mIoU: 0.8280
+
+Epoch 4
+-------------------------------
+Train loss: 0.0314, mIoU: 0.8399
+Dev loss: 0.0313,  mIoU: 0.8422
+New best model saved at epoch 4 with dev mIoU: 0.8422
+
+Epoch 5
+-------------------------------
+Train loss: 0.0290, mIoU: 0.8509
+Dev loss: 0.0301,  mIoU: 0.8462
+New best model saved at epoch 5 with dev mIoU: 0.8462
+
+Epoch 6
+-------------------------------
+Train loss: 0.0273, mIoU: 0.8585
+Dev loss: 0.0286,  mIoU: 0.8531
+New best model saved at epoch 6 with dev mIoU: 0.8531
+
+Epoch 7
+-------------------------------
+Train loss: 0.0261, mIoU: 0.8642
+Dev loss: 0.0272,  mIoU: 0.8598
+New best model saved at epoch 7 with dev mIoU: 0.8598
+
+Epoch 8
+-------------------------------
+Train loss: 0.0251, mIoU: 0.8685
+Dev loss: 0.0270,  mIoU: 0.8610
+New best model saved at epoch 8 with dev mIoU: 0.8610
+
+Epoch 9
+-------------------------------
+Train loss: 0.0243, mIoU: 0.8721
+Dev loss: 0.0267,  mIoU: 0.8620
+New best model saved at epoch 9 with dev mIoU: 0.8620
+
+Epoch 10
+-------------------------------
+Train loss: 0.0236, mIoU: 0.8753
+Dev loss: 0.0256,  mIoU: 0.8669
+New best model saved at epoch 10 with dev mIoU: 0.8669
+

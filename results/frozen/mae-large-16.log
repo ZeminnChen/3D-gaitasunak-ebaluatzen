@@ -1,0 +1,63 @@
+Loaded MAE large with embed_dim=1024, patch_size=16, extracted layers=[5, 12, 18, 24]
+Starting training for MAE, epochs: 10, batch size: 16, learning rate: 0.001
+Test loss: 0.0286,   Test mIoU: 0.8521
+
+Epoch 1
+-------------------------------
+Train loss: 0.0841, mIoU: 0.6210
+Dev loss: 0.0600,  mIoU: 0.7218
+New best model saved at epoch 1 with dev mIoU: 0.7218
+
+Epoch 2
+-------------------------------
+Train loss: 0.0495, mIoU: 0.7590
+Dev loss: 0.0551,  mIoU: 0.7382
+New best model saved at epoch 2 with dev mIoU: 0.7382
+
+Epoch 3
+-------------------------------
+Train loss: 0.0409, mIoU: 0.7970
+Dev loss: 0.0405,  mIoU: 0.8019
+New best model saved at epoch 3 with dev mIoU: 0.8019
+
+Epoch 4
+-------------------------------
+Train loss: 0.0358, mIoU: 0.8200
+Dev loss: 0.0374,  mIoU: 0.8127
+New best model saved at epoch 4 with dev mIoU: 0.8127
+
+Epoch 5
+-------------------------------
+Train loss: 0.0330, mIoU: 0.8326
+Dev loss: 0.0343,  mIoU: 0.8271
+New best model saved at epoch 5 with dev mIoU: 0.8271
+
+Epoch 6
+-------------------------------
+Train loss: 0.0311, mIoU: 0.8412
+Dev loss: 0.0328,  mIoU: 0.8343
+New best model saved at epoch 6 with dev mIoU: 0.8343
+
+Epoch 7
+-------------------------------
+Train loss: 0.0297, mIoU: 0.8477
+Dev loss: 0.0338,  mIoU: 0.8297
+
+Epoch 8
+-------------------------------
+Train loss: 0.0285, mIoU: 0.8531
+Dev loss: 0.0346,  mIoU: 0.8275
+
+Epoch 9
+-------------------------------
+Train loss: 0.0275, mIoU: 0.8577
+Dev loss: 0.0302,  mIoU: 0.8462
+New best model saved at epoch 9 with dev mIoU: 0.8462
+
+Epoch 10
+-------------------------------
+Train loss: 0.0266, mIoU: 0.8614
+Dev loss: 0.0291,  mIoU: 0.8511
+New best model saved at epoch 10 with dev mIoU: 0.8511
+
+

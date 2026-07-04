@@ -1,0 +1,72 @@
+Starting training for CLIP, epochs: 10, batch size: 16, learning rate: 0.001
+Test loss: 0.0701, mIoU: 0.6790
+
+Epoch 1
+-------------------------------
+Train loss: 0.1221, mIoU: 0.4647
+Test loss: 0.1007, mIoU: 0.5421
+Dev loss: 0.1007, mIoU: 0.5421
+New best model saved at epoch 1 with dev mIoU: 0.5421
+
+Epoch 2
+-------------------------------
+Train loss: 0.0869, mIoU: 0.6005
+Test loss: 0.0846, mIoU: 0.6109
+Dev loss: 0.0846, mIoU: 0.6109
+New best model saved at epoch 2 with dev mIoU: 0.6109
+
+Epoch 3
+-------------------------------
+Train loss: 0.0774, mIoU: 0.6382
+Test loss: 0.0791, mIoU: 0.6362
+Dev loss: 0.0791, mIoU: 0.6362
+New best model saved at epoch 3 with dev mIoU: 0.6362
+
+Epoch 4
+-------------------------------
+Train loss: 0.0716, mIoU: 0.6616
+Test loss: 0.0750, mIoU: 0.6499
+Dev loss: 0.0750, mIoU: 0.6499
+New best model saved at epoch 4 with dev mIoU: 0.6499
+
+Epoch 5
+-------------------------------
+Train loss: 0.0672, mIoU: 0.6797
+Test loss: 0.0725, mIoU: 0.6636
+Dev loss: 0.0725, mIoU: 0.6636
+New best model saved at epoch 5 with dev mIoU: 0.6636
+
+Epoch 6
+-------------------------------
+Train loss: 0.0635, mIoU: 0.6951
+Test loss: 0.0718, mIoU: 0.6681
+Dev loss: 0.0718, mIoU: 0.6681
+New best model saved at epoch 6 with dev mIoU: 0.6681
+
+Epoch 7
+-------------------------------
+Train loss: 0.0604, mIoU: 0.7083
+Test loss: 0.0717, mIoU: 0.6685
+Dev loss: 0.0717, mIoU: 0.6685
+New best model saved at epoch 7 with dev mIoU: 0.6685
+
+Epoch 8
+-------------------------------
+Train loss: 0.0577, mIoU: 0.7199
+Test loss: 0.0709, mIoU: 0.6729
+Dev loss: 0.0709, mIoU: 0.6729
+New best model saved at epoch 8 with dev mIoU: 0.6729
+
+Epoch 9
+-------------------------------
+Train loss: 0.0553, mIoU: 0.7303
+Test loss: 0.0705, mIoU: 0.6775
+Dev loss: 0.0705, mIoU: 0.6775
+New best model saved at epoch 9 with dev mIoU: 0.6775
+
+Epoch 10
+-------------------------------
+Train loss: 0.0531, mIoU: 0.7397
+Test loss: 0.0710, mIoU: 0.6790
+Dev loss: 0.0710, mIoU: 0.6790
+New best model saved at epoch 10 with dev mIoU: 0.6790
