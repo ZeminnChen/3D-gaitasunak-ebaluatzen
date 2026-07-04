@@ -1,3 +1,5 @@
+import json
+import numpy as np
 import plotly.graph_objects as go
 
 def generate_3d_voxel(scene, grid_size):
@@ -77,3 +79,20 @@ def visualize_grid(voxel_grid):
     )
 
     fig.show()
+
+
+if __name__ == "__main__":
+    json_path = '/content/drive/MyDrive/TFG/CLEVR_train_scenes.json'
+    with open(json_path, 'r') as f:
+        scene_data = json.load(f)
+
+    voxel_grid = generate_3d_voxel(scene_data['scenes'][0], 64)
+    total_voxels = voxel_grid.size
+    occupied_voxels = np.sum(voxel_grid > 0)
+    empty_voxels = total_voxels - occupied_voxels
+    
+    print(f"Total voxels: {total_voxels}")
+    print(f"Occupied voxels: {occupied_voxels}, empty voxels: {empty_voxels}")
+    print(f"Shape: {voxel_grid.shape}")
+    
+    visualize_grid(voxel_grid)
