@@ -15,7 +15,7 @@ A tales efectos:
 ---
 
 ## Estructura del Proyecto
-El repositorio está organizado de manera modular para separar la gestión de datos, la arquitectura de red de los modelos y las canalizaciones de evaluación:
+El repositorio está organizado de la siguiente manera:
 
 ```text
 3D-gaitasunak-ebaluatzen/
