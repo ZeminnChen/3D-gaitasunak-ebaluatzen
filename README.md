@@ -8,7 +8,7 @@ analizando el impacto de sus paradigmas de preentrenamiento (aprendizaje auto-su
 
 Para llevar a cabo la evaluación, el problema de la reconstrucción 3D a partir de una única imagen 2D se ha reformulado como una tarea de **predicción binaria de ocupación a nivel de voxel** (donde `1` representa voxel ocupado y `0` representa fondo o espacio vacío). 
 A tales efectos:
-1. Se ha construido el dataset sintético **CLEVR-Rec** (derivado de CLEVR), proporcionando matrices volumétricas de resolución $64 \times 64 \times 64$.
+1. Se ha construido el dataset sintético **CLEVR-Rec** (derivado de CLEVR), proporcionando matrices volumétricas de resolución $64 \times 64 \times 64$. El dataset se encuentra disponible en: [txenzemin/CLEVR-Rec-3D en Hugging Face](https://huggingface.co/datasets/txenzemin/CLEVR-Rec-3D).
 2. Las representaciones intermedias de los modelos visuales evaluados se mapean al espacio 3D discreto utilizando un decodificador personalizado basado en la arquitectura **Dense Prediction Transformer (DPT)**.
 
 
