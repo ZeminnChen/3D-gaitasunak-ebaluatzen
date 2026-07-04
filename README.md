@@ -1,4 +1,4 @@
-# Ikusizko ereduen 3D gaitasunak ebaluatzen (CLEVR-Rec Voxel Generator)
+# Ikusizko ereduen 3D gaitasunak ebaluatzen
 
 
 El proyecto se centra en evaluar la comprensión y el conocimiento espacial tridimensional de los Modelos Fundacionales de Visión (*Vision Foundation Models*), 
