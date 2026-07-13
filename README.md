@@ -1,6 +1,6 @@
 # Evaluación de las capacidades 3D de los modelos de visión
 
-El objetivo principal de esta investigación es analizar cómo influyen los diferentes paradigmas de preentrenamiento —Aprendizaje Auto-supervisado (SSL) y Aprendizaje Supervisado por Lenguaje (LSL)— en la calidad de la reconstrucción 3D densa y en la preservación de características geométricas y espaciales.
+El objetivo principal de esta investigación es evaluar el impacto de los paradigmas de preentrenamiento actuales en la comprensión espacial de los modelos de visión fundacionales (*Vision Foundation models*, o *VFM*). En concreto, se analiza de forma comparativa cómo influyen el Aprendizaje Auto-supervisado (*Self Supervised Learning*, o *SSL*) y el Aprendizaje Supervisado por Lenguaje (*Language Supervised Learning*, o *LSL*) en la calidad de la reconstrucción 3D densa y en la preservación de características geométricas esenciales.
 
 
 
