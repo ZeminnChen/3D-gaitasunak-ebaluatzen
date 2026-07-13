@@ -1,4 +1,4 @@
-# Ikusizko ereduen 3D gaitasunak ebaluatzen
+# Evaluación de las capacidades 3D de los modelos de visión
 
 El objetivo principal de esta investigación es analizar cómo influyen los diferentes paradigmas de preentrenamiento —Aprendizaje Auto-supervisado (SSL) y Aprendizaje Supervisado por Lenguaje (LSL)— en la calidad de la reconstrucción 3D densa y en la preservación de características geométricas y espaciales.
 
