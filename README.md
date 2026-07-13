@@ -5,7 +5,7 @@ El objetivo principal de esta investigación es evaluar el impacto de los paradi
 
 
 ## Contribuciones
-1. **CLEVR-Rec Dataset.** Un nuevo conjunto de datos sintéticos derivado de CLEVR que reformula la reconstrucción 3D como una tarea de predicción binaria de ocupación a nivel de voxel, proporcionando matrices volumétricas de resolución $64 \times 64 \times 64$. Cuenta con $85,000$ escenas para train, validación y test. El dataset se encuentra disponible en: [txenzemin/CLEVR-Rec-3D en Hugging Face](https://huggingface.co/datasets/txenzemin/CLEVR-Rec-3D).
+1. **CLEVR-Rec Dataset.** Un nuevo conjunto de datos sintéticos derivado de CLEVR que reformula la reconstrucción 3D como una tarea de predicción binaria de ocupación a nivel de voxel. Este dataset proporciona la matriz 3D de resolución $64 \times 64 \times 64$ correspondiente a cada escena original de CLEVR. Cuenta con $85,000$ escenas distribuidas para train, validación y test, y se encuentra disponible en: [txenzemin/CLEVR-Rec-3D en Hugging Face](https://huggingface.co/datasets/txenzemin/CLEVR-Rec-3D).
 2. **Decodificador 3D basado en DPT.** Diseño e implementación de un decodificador convolucional inspirado en la arquitectura Dense Prediction Transformer (DPT), adaptado para proyectar representaciones latentes 2D hacia un volumen discreto 3D.
 
 
