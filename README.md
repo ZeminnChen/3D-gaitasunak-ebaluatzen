@@ -14,11 +14,14 @@ El objetivo principal de esta investigación es evaluar el impacto de los paradi
 3. **Decodificador 3D basado en DPT.** Diseño e implementación de un decodificador convolucional inspirado en la arquitectura Dense Prediction Transformer (DPT), adaptado para proyectar representaciones latentes 2D hacia un volumen discreto 3D.
 
 
+<img width="974" height="546" alt="Decoder EN" src="https://github.com/user-attachments/assets/192ca228-9029-43a1-9001-48dba7ccf9ed" />
+
 
 ## Metodología
 El flujo de trabajo consta de dos fases principales: (1) la extracción de características mediante backbones congelados, (2) mapeo de las representaciones 2D al espacio 3D mediante el decodificador. En la imagen posterior se ilustra el flujo del proceso:
 
-<img width="1404" height="768" alt="Decoder ENG" src="https://github.com/user-attachments/assets/824d4f68-abf8-4941-b93a-662c4dd9cfc3" />
+<img width="974" height="546" alt="Decoder EN" src="https://github.com/user-attachments/assets/7c867669-13e6-484a-b698-b6717904a896" />
+
 
 Para transformar las representaciones 2D en un volumen 3D, el decodificador implementa cuatro etapas:
 
