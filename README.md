@@ -11,7 +11,7 @@ El objetivo principal de esta investigación es evaluar el impacto de los paradi
   <img width="350" height="173" alt="CLEVR-Rec" src="https://github.com/user-attachments/assets/374858cc-c570-43e4-b6f2-118398829f16" />
 </p>
 
-3. **Decodificador 3D basado en DPT.** Diseño e implementación de un decodificador convolucional inspirado en la arquitectura Dense Prediction Transformer (DPT), adaptado para proyectar representaciones latentes 2D hacia un volumen discreto 3D.
+2. **Decodificador 3D basado en DPT.** Diseño e implementación de un decodificador convolucional inspirado en la arquitectura Dense Prediction Transformer (DPT), adaptado para proyectar representaciones latentes 2D hacia un volumen discreto 3D.
 
 
 
